@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+// ng g m pages/pages --flat  .. genera modulos
 export class AppComponent {
   title = 'adminpro';
 }
