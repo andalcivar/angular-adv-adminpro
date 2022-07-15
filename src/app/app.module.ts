@@ -10,17 +10,8 @@ import { NotPageFoundComponent } from './not-page-found/not-page-found.component
 import { AuthModule } from './auth/auth.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NotPageFoundComponent,
-
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    PagesModule,
-    AuthModule
-  ],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, NotPageFoundComponent],
+  imports: [BrowserModule, AppRoutingModule, PagesModule, AuthModule],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
